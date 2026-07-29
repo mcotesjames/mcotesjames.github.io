@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinachem Group — Places with Heart</title>
+  <meta name="description" content="Chinachem Group builds places with heart — spaces where families, businesses, and ecosystems thrive together." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__wordmark">
+        <span class="loader__letter">C</span><span class="loader__letter">h</span><span class="loader__letter">i</span><span class="loader__letter">n</span><span class="loader__letter">a</span><span class="loader__letter">c</span><span class="loader__letter">h</span><span class="loader__letter">e</span><span class="loader__letter">m</span>
+      </div>
+      <div class="loader__meta">
+        <span class="loader__tag">華懋集團 — Places with Heart</span>
+        <span class="loader__count">00</span>
+      </div>
+    </div>
+    <div class="loader__curtain"></div>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__label"><span>View</span></div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__logo" data-magnetic>
+      <svg class="nav__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M16 27.5C9.5 22 4 17 4 11a6.5 6.5 0 0 1 12-3.5A6.5 6.5 0 0 1 28 11c0 6-5.5 11-12 16.5Z"/>
+        <path d="M16 22.5c-4-3.6-7.5-7-7.5-11" opacity="0.55"/>
+      </svg>
+      <span class="nav__logo-text">Chinachem Group<small>華懋集團</small></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" class="nav__link"><span>About</span><i>⌄</i></a>
+      <a href="#portfolio" class="nav__link"><span>Our Work</span><i>⌄</i></a>
+      <a href="#spotlights" class="nav__link"><span>Our Impact</span><i>⌄</i></a>
+      <a href="#stories" class="nav__link"><span>Stories</span><i>⌄</i></a>
+      <a href="#contact" class="nav__link"><span>Contact</span></a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="#contact" class="btn btn--solid btn--small" data-magnetic><span class="btn__label">Sales &amp; Leasing</span></a>
+      <button class="nav__menu-btn" data-menu-toggle aria-expanded="false" aria-controls="menu">
+        <span class="nav__menu-label">Menu</span>
+        <span class="nav__menu-icon">+</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ OVERLAY MENU ============ -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <nav class="menu__links" aria-label="Menu">
+        <a href="#about" class="menu__link"><em>01</em>About</a>
+        <a href="#portfolio" class="menu__link"><em>02</em>Our Work</a>
+        <a href="#spotlights" class="menu__link"><em>03</em>Our Impact</a>
+        <a href="#stories" class="menu__link"><em>04</em>Stories</a>
+        <a href="#brands" class="menu__link"><em>05</em>Our Brands</a>
+        <a href="#contact" class="menu__link"><em>06</em>Contact</a>
+      </nav>
+      <div class="menu__foot">
+        <span>Driving Growth. Delivering Good.</span>
+        <span>Hong Kong — 22.3193° N, 114.1694° E</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <figure class="hero__media" data-parallax="12">
+        <img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?q=80&w=2200&auto=format&fit=crop" alt="Hong Kong harbour and skyline at golden hour" />
+      </figure>
+
+      <div class="hero__row">
+        <h1 class="hero__title" data-split>Places with <em>Heart</em></h1>
+        <p class="hero__copy anim-fade">
+          Listening before we build — spaces where families, businesses,
+          and ecosystems thrive together, across Hong Kong and beyond.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT INTRO ============ -->
+    <section class="about" id="about">
+      <p class="about__text" data-scrub-words>
+        ‘Places with Heart’ means listening before we build — spaces where
+        families, businesses, and ecosystems thrive together. CCG:
+        <em>driving growth, delivering good,</em> building a resilient
+        future for all.
+      </p>
+    </section>
+
+    <!-- ============ PORTFOLIO SLIDER ============ -->
+    <section class="portfolio" id="portfolio">
+      <header class="section-head">
+        <h2 class="section-head__title anim-fade"><em>Our Portfolio</em></h2>
+      </header>
+
+      <div class="slider" data-slider>
+        <div class="slider__viewport" data-slider-viewport>
+          <div class="slider__track" data-slider-track>
+
+            <article class="work" data-cursor="view" data-reveal>
+              <header class="work__head">
+                <h3 class="work__name">CubeHouse</h3>
+                <span class="work__loc">Sham Tseng, Tsuen Wan</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1400&auto=format&fit=crop" alt="CubeHouse — sustainable timber architecture" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view" data-reveal>
+              <header class="work__head">
+                <h3 class="work__name">Whitesand Cove</h3>
+                <span class="work__loc">Sensory dockside living</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop" alt="Whitesand Cove residences at dusk" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view" data-reveal>
+              <header class="work__head">
+                <h3 class="work__name">Zendo House</h3>
+                <span class="work__loc">8 To Hing Street, Kowloon</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop" alt="Zendo House light-filled interior" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view">
+              <header class="work__head">
+                <h3 class="work__name">Central Market</h3>
+                <span class="work__loc">Revitalisation, Central</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1400&auto=format&fit=crop" alt="Central Market community spaces" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view">
+              <header class="work__head">
+                <h3 class="work__name">One Hennessy</h3>
+                <span class="work__loc">Wan Chai</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1400&auto=format&fit=crop" alt="One Hennessy tower facade" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view">
+              <header class="work__head">
+                <h3 class="work__name">Nina Park</h3>
+                <span class="work__loc">Tsuen Wan West</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1400&auto=format&fit=crop" alt="Nina Park garden residences" /></figure>
+            </article>
+
+            <article class="work" data-cursor="view">
+              <header class="work__head">
+                <h3 class="work__name">The Mille</h3>
+                <span class="work__loc">Cheung Sha Wan</span>
+              </header>
+              <figure class="work__img"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1400&auto=format&fit=crop" alt="The Mille residential development" /></figure>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="slider__controls">
+          <span class="slider__pag"><span data-current>01</span><i>/</i><span data-total>07</span></span>
+          <span class="slider__bar"><span class="slider__bar-fill" data-progress></span></span>
+          <div class="slider__arrows">
+            <button class="slider__arrow" data-prev aria-label="Previous projects">←</button>
+            <button class="slider__arrow" data-next aria-label="Next projects">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STAT STRIP ============ -->
+    <section class="stats">
+      <div class="slider" data-slider>
+        <div class="slider__viewport" data-slider-viewport>
+          <div class="slider__track stats__track" data-slider-track>
+
+            <div class="stat" data-reveal>
+              <span class="stat__label">Projects in development</span>
+              <span class="stat__num"><span data-count="16">0</span></span>
+            </div>
+            <div class="stat" data-reveal>
+              <span class="stat__label">Core business sectors</span>
+              <span class="stat__num"><span data-count="4">0</span></span>
+            </div>
+            <div class="stat" data-reveal>
+              <span class="stat__label">Developments completed</span>
+              <span class="stat__num"><span data-count="220">0</span></span>
+            </div>
+            <div class="stat">
+              <span class="stat__label">Years of heritage</span>
+              <span class="stat__num"><span data-count="60">0</span>+</span>
+            </div>
+            <div class="stat">
+              <span class="stat__label">m³ of sustainable timber stored</span>
+              <span class="stat__num"><span data-count="3700">0</span></span>
+            </div>
+            <div class="stat">
+              <span class="stat__label">Neighbourhood meals served</span>
+              <span class="stat__num"><span data-count="100000">0</span></span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="slider__controls slider__controls--tight">
+          <span class="slider__bar"><span class="slider__bar-fill" data-progress></span></span>
+          <div class="slider__arrows">
+            <button class="slider__arrow" data-prev aria-label="Previous statistics">←</button>
+            <button class="slider__arrow" data-next aria-label="Next statistics">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMMUNITY SPOTLIGHTS ============ -->
+    <section class="spotlights" id="spotlights">
+      <header class="section-head section-head--light">
+        <h2 class="section-head__title anim-fade"><em>Community Spotlights</em></h2>
+      </header>
+
+      <div class="spotlights__grid">
+        <div class="spotlights__media" data-reveal>
+          <figure class="spotlights__img is-active" data-spot-img="0"><img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?q=80&w=1400&auto=format&fit=crop" alt="Volunteers preparing warm meals" /></figure>
+          <figure class="spotlights__img" data-spot-img="1"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1400&auto=format&fit=crop" alt="Sustainable timber construction at CubeHouse" /></figure>
+          <figure class="spotlights__img" data-spot-img="2"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1400&auto=format&fit=crop" alt="Colleagues volunteering together" /></figure>
+          <figure class="spotlights__img" data-spot-img="3"><img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1400&auto=format&fit=crop" alt="Restored wetland reeds at dawn" /></figure>
+          <figure class="spotlights__img" data-spot-img="4"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1400&auto=format&fit=crop" alt="Neighbours celebrating together" /></figure>
+        </div>
+
+        <div class="spotlights__panel">
+          <ul class="spotlights__list">
+            <li><button class="spotlights__item is-active" data-spot="0" data-reveal><em>01</em><span>Warm Meals, Warm Hearts</span></button></li>
+            <li><button class="spotlights__item" data-spot="1" data-reveal><em>02</em><span>Roots &amp; Routes</span></button></li>
+            <li><button class="spotlights__item" data-spot="2" data-reveal><em>03</em><span>Colleagues Who Care</span></button></li>
+            <li><button class="spotlights__item" data-spot="3" data-reveal><em>04</em><span>Reeds in Harmony</span></button></li>
+            <li><button class="spotlights__item" data-spot="4" data-reveal><em>05</em><span>Building Belonging</span></button></li>
+          </ul>
+
+          <div class="spotlights__detail" data-reveal>
+            <h3 class="spotlights__detail-title" data-spot-title><em>Warm Meals, Warm Hearts</em></h3>
+            <p class="spotlights__detail-copy" data-spot-copy>
+              Every week our kitchens turn surplus produce into hot,
+              nourishing meals for elderly neighbours living alone —
+              delivered by colleagues and residents, door to door.
+            </p>
+            <a href="#" class="spotlights__more" data-spot-link>Read more <i>+</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWS STORIES ============ -->
+    <section class="news" id="stories">
+      <header class="section-head">
+        <h2 class="section-head__title anim-fade"><em>What's Happening</em></h2>
+      </header>
+
+      <div class="slider" data-slider>
+        <div class="slider__viewport" data-slider-viewport>
+          <div class="slider__track" data-slider-track>
+
+            <article class="story" data-cursor="view" data-reveal>
+              <figure class="story__img">
+                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1400&auto=format&fit=crop" alt="Volunteers at the REACT campaign launch" />
+                <div class="story__tags"><span>Community</span><span>Sustainability</span></div>
+              </figure>
+              <time class="story__date" datetime="2026-06-24">24 June, 2026</time>
+              <h3 class="story__title">No Act is Too Small, No Impact is Too Big: CCG Launches “REACT” Campaign</h3>
+              <span class="story__more">Read more</span>
+            </article>
+
+            <article class="story" data-cursor="view" data-reveal>
+              <figure class="story__img">
+                <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1400&auto=format&fit=crop" alt="CubeHouse timber structure" />
+                <div class="story__tags"><span>Sustainability</span></div>
+              </figure>
+              <time class="story__date" datetime="2026-05-12">12 May, 2026</time>
+              <h3 class="story__title">CubeHouse Tops Out: 3,700 m³ of Sustainable Timber, a First for Hong Kong</h3>
+              <span class="story__more">Read more</span>
+            </article>
+
+            <article class="story" data-cursor="view">
+              <figure class="story__img">
+                <img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?q=80&w=1400&auto=format&fit=crop" alt="Warm Meals volunteers packing meals" />
+                <div class="story__tags"><span>Community</span></div>
+              </figure>
+              <time class="story__date" datetime="2026-04-28">28 April, 2026</time>
+              <h3 class="story__title">Warm Meals, Warm Hearts Serves Its 100,000th Neighbourhood Meal</h3>
+              <span class="story__more">Read more</span>
+            </article>
+
+            <article class="story" data-cursor="view">
+              <figure class="story__img">
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1400&auto=format&fit=crop" alt="Central Market interior life" />
+                <div class="story__tags"><span>Culture</span></div>
+              </figure>
+              <time class="story__date" datetime="2026-03-09">9 March, 2026</time>
+              <h3 class="story__title">Central Market's Second Life: Two Years of a Living Landmark</h3>
+              <span class="story__more">Read more</span>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="slider__controls">
+          <span class="slider__pag"><span data-current>01</span><i>/</i><span data-total>04</span></span>
+          <span class="slider__bar"><span class="slider__bar-fill" data-progress></span></span>
+          <div class="slider__arrows">
+            <button class="slider__arrow" data-prev aria-label="Previous stories">←</button>
+            <button class="slider__arrow" data-next aria-label="Next stories">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUBSIDIARY BRANDS ============ -->
+    <section class="brands" id="brands">
+      <header class="section-head">
+        <h2 class="section-head__title anim-fade"><em>Our Family of Brands</em></h2>
+      </header>
+      <div class="brands__grid">
+        <a href="#" class="brand" data-reveal><span class="brand__name">Nina Hospitality</span><span class="brand__desc">Hotels &amp; dining</span></a>
+        <a href="#" class="brand" data-reveal><span class="brand__name">Nina Mall</span><span class="brand__desc">Retail &amp; leisure</span></a>
+        <a href="#" class="brand" data-reveal><span class="brand__name">Chinachem Agencies</span><span class="brand__desc">Property services</span></a>
+        <a href="#" class="brand" data-reveal><span class="brand__name">CCG Hearts</span><span class="brand__desc">Community rewards</span></a>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="cta" id="contact">
+      <h2 class="cta__title" data-split>Driving Growth.<br />Delivering Good.</h2>
+      <div class="cta__actions">
+        <a href="#" class="btn btn--cream" data-magnetic><span class="btn__label">Sales / Leasing</span></a>
+        <a href="#" class="btn btn--ghost" data-magnetic><span class="btn__label">CCG Hearts</span></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__links">
+      <div class="footer__col">
+        <span class="footer__col-title">About</span>
+        <a href="#">Mission &amp; Vision</a>
+        <a href="#">Our Story</a>
+        <a href="#">Leadership</a>
+        <a href="#">Corporate Governance</a>
+        <a href="#">Awards &amp; Recognition</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Our Work</span>
+        <a href="#">Our Portfolio</a>
+        <a href="#">Hospitality &amp; Entertainment</a>
+        <a href="#">Property Services</a>
+        <a href="#">Healthcare</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Our Impact</span>
+        <a href="#">Our Approach</a>
+        <a href="#">Connected Communities</a>
+        <a href="#">Thriving People</a>
+        <a href="#">Sustainable Impact</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Stories</span>
+        <a href="#">Newsroom</a>
+        <a href="#">What's Happening</a>
+        <a href="#">LIFE+ Magazine</a>
+        <a href="#">Multimedia Library</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Join Us</span>
+        <a href="#">Life at Chinachem</a>
+        <a href="#">Internship Program</a>
+        <a href="#">Open Roles</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Contact</span>
+        <a href="#">Get in Touch</a>
+        <a href="#">Partner with Us</a>
+      </div>
+    </div>
+
+    <div class="footer__brand">
+      <a href="#top" class="footer__logo" data-magnetic>
+        <svg class="footer__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <path d="M16 27.5C9.5 22 4 17 4 11a6.5 6.5 0 0 1 12-3.5A6.5 6.5 0 0 1 28 11c0 6-5.5 11-12 16.5Z"/>
+          <path d="M16 22.5c-4-3.6-7.5-7-7.5-11" opacity="0.55"/>
+        </svg>
+        <span>Chinachem Group<small>華懋集團</small></span>
+      </a>
+      <div class="footer__social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">WeChat</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <span>© 2026 Chinachem Group. All rights reserved.</span>
+      <span class="footer__legal-links">
+        <a href="#">Accessibility</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Data Privacy Policy</a>
+      </span>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
